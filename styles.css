@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family:"Sacramento",cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+  /* 1em = 16px = 100%
+  em and % is dynamic and also this property of font sixe gets inherited
+  use rem to ignore parent settings
+  */
+}
+
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3{
+  font-family: 'Montserrat',sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top:100px;
+}
+
+.skill-1{
+  width:20%;
+  border-radius: 100%;
+}
+
+.skill-2{
+  width:20%;
+}
+
+.avatar{
+  width:20%;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+}
